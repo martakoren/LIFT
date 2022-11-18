@@ -1,10 +1,110 @@
 :root {
-  --branding-color: #6c63ff;
+  --primary-color: #df5a02;
   --secondary-color: #f9f7fe;
-  --heading-font-family: "Playfair Display", serif;
+  --heading-font-family: "Source Code Pro", monospace;
   --default-font-family: "Poppins", sans-serif;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
-  font-family: var(--default-font-family);
+#navbarNav {
+  justify-content: right;
+}
+.back-video {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+hero {
+  width: 100%;
+  height: 0vh;
+}
+@media (min-aspect-ratio: 16/9) {
+  .back-video {
+    width: auto;
+    height: 100%;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .back-video {
+    width: 100%;
+    height: auto;
+  }
+}
+h1 {
+  font-size: 100px;
+  color: var(--primary-color);
+}
+
+h2 {
+  font-size: 100px;
+  color: var(--secondary-color);
+}
+
+h3 {
+  color: var(--secondary-color);
+  font-size: 24px;
+  opacity: 0.7;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-bottom: 40px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
 }
