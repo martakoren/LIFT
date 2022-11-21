@@ -104,6 +104,9 @@ p {
   padding: 120px 60px;
 }
 
+#contact {
+  text-align: center;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -117,7 +120,9 @@ p {
   .hero {
     padding: 80px 20px;
   }
-
+  .about-section {
+    text-align: center;
+  }
   .project-desciption {
     padding: 0;
     text-align: center;
