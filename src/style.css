@@ -64,6 +64,9 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+a {
+  box-shadow: var(--box-shadow);
+}
 
 .hero {
   background: rgba(0, 0, 0, 0.3);
@@ -145,6 +148,13 @@ p {
 .content p {
   font-size: 14px;
 }
+.content li {
+  list-style: none;
+  margin: 10px auto;
+}
+.content img {
+  width: 300px;
+}
 
 .content {
   margin: 30px;
@@ -153,4 +163,17 @@ p {
 .project-desciption {
   padding: 0;
   text-align: center;
+}
+#portrait {
+  border-radius: 50%;
+}
+.background-image {
+  position: absolute;
+
+  margin: 0px auto;
+  padding: 0px auto;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
 }
