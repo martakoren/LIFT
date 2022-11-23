@@ -9,6 +9,9 @@
 #navbarNav {
   justify-content: right;
 }
+.navbar a {
+  box-shadow: none;
+}
 .back-video {
   position: absolute;
   bottom: 0;
