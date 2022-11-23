@@ -21,7 +21,7 @@
   right: 0;
   z-index: -1;
 }
-hero {
+.hero1 {
   width: 100%;
   height: 0vh;
 }
@@ -145,7 +145,7 @@ a {
   list-style: none;
   margin: 10px auto;
 }
-.content img {
+#portrait {
   width: 300px;
 }
 
@@ -215,6 +215,10 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
+}
+
+footer a {
+  box-shadow: none;
 }
 @media (max-width: 900px) {
   h1 {
