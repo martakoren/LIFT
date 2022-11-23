@@ -109,6 +109,7 @@ a {
 
 #contact {
   text-align: center;
+  box-shadow: none;
 }
 @media (max-width: 900px) {
   h1 {
