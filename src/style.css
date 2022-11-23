@@ -169,7 +169,7 @@ a {
 }
 .background-image {
   position: absolute;
-
+  min-width: 1000px;
   margin: 0px auto;
   padding: 0px auto;
   z-index: -1;
