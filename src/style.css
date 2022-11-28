@@ -152,7 +152,7 @@ a {
 
 .content .email-link {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--branding-color);
   font-size: 24px;
   box-shadow: none;
 }
