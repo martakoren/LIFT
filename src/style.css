@@ -147,6 +147,7 @@ a {
 }
 #portrait {
   width: 300px;
+  image-resolution: 25dpi;
 }
 
 .content .email-link {
